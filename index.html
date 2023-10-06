@@ -27,6 +27,7 @@
                             </div>
                         </button>-->
                         <h1>CV Builder</h1>
+                        <button type="button" class="theme-toggle-btn" onclick="toggleDarkTheme()">Toggle Dark Theme</button>
                     </div>
                 </div>
             </div>
@@ -386,7 +387,12 @@
             </div>
         </div>
 
-
+        <script>
+            function toggleDarkTheme() {
+                var navbar = document.getElementById("navbar");
+                navbar.classList.toggle("dark-theme");
+            }
+        </script>
         
 
         <!-- jquery cdn -->

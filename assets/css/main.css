@@ -115,6 +115,12 @@ a{
     padding: 0 1.6rem;
 }
 
+/* Dark theme styles */
+.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+
 /* bars button */
 .bars{
     display: flex;
