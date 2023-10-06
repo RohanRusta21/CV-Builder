@@ -226,8 +226,13 @@ function previewImage(){
 function toggleDarkTheme() {
     var navbar = document.getElementById("navbar");
     navbar.classList.toggle("dark-theme");
-        }
+}
 
+// Get the theme toggle button element
+var themeToggleButton = document.getElementById("theme-toggle-btn");
+
+// Add a click event listener to toggle the theme
+themeToggleButton.addEventListener("click", toggleDarkTheme);    
 
 // print CV
 function printCV(){
