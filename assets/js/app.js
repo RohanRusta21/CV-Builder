@@ -223,6 +223,11 @@ function previewImage(){
 }
 
 
+function toggleDarkTheme() {
+    var navbar = document.getElementById("navbar");
+    navbar.classList.toggle("dark-theme");
+        }
+
 
 // print CV
 function printCV(){
